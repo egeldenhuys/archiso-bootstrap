@@ -19,7 +19,7 @@ else
 fi
 
 if [[ -z "$config_dir" ]]; then
-bash ~/dotfiles/init.sh
+    source ~/dotfiles/init.sh
 else
-bash ~/dotfiles/$config_dir/init.sh
+    source ~/dotfiles/$config_dir/init.sh
 fi
