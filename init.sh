@@ -1,6 +1,7 @@
 #!/bin/bash
 
-./set-proxy.sh
+# TODO: Make more dynamic
+bash ~/archiso-bootstrap/set-proxy.sh
 
 echo "We will now clone your personal repo and initialise the system."
 echo "github/username/dotfiles/config_dir/init.sh will be executed"
